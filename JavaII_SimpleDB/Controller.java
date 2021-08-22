@@ -22,7 +22,6 @@ public class Controller {
     ObservableList<ModelTable> olist = FXCollections.observableArrayList();
 
     public void setData(String query) {
-        //query = "Select * From user;";
         /* Get database connection */
         try {
             Connection con = DBConnector.getConnection();
